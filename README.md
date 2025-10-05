@@ -1,10 +1,10 @@
-# Bangla Text Summarization from Video Content using Sequential Method of Abstractive and Extractive Summarization
+# Abstractive Summarization of Bengali Academic Videos Based on Audio Subtitles
 
 ## Supervisor:
 **Abdul Aziz**, Assistant Professor, Department of CSE, Khulna University of Engineering & Technology (KUET)
 
 ## Overview
-This project presents a novel approach to summarizing Bangla video content by using a sequential combination of abstractive and extractive summarization techniques. Given the increasing volume of Bangla video content and the scarcity of Bangla-specific summarization tools, this work aims to address the need for efficient Bangla video summarization.
+This research introduces the first end-to-end system for abstractive summarization of Bengali academic videos. It fine-tunes BanglaT5 and mT5-multilingual-XLSum models using two benchmark datasets (10,029 text-summary pairs and 1,005 summary-title pairs). The generated summaries are compared using different models using ROUGE, BERT, Mover scores, and factual consistency scores. The system integrates audio preprocessing, transcription, smart chunking, summarization, title generation, and timestamp mapping to enhance accessibility of Bengali educational content.
 
 ## Objectives
 - Develop an efficient Bangla video summarization system.
